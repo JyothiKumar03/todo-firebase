@@ -1,0 +1,64 @@
+.main {
+    height: 100vh;
+    weight: 100vw;
+    background: linear-gradient(122.19deg, #5bd678 1.89%, #fdc357 113.56%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .add-edit-input {
+    position: absolute;
+    top: 15px;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 25px;
+    padding: 5px 30px;
+  }
+  .add-icon{
+    position: absolute;
+    transform: scale(2);
+    top: 25px;
+    right: 200px;
+    cursor: pointer;
+  }
+  .add-confirm-icon {
+    position: absolute;
+    transform: scale(2);
+    top: 27px;
+    right: 750px;
+    cursor: pointer;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .todo > h1 {
+    width: 500px;
+    background-color: rgb(211, 211, 211);
+    padding: 5px 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .logout-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    background: red;
+    color: white;
+  }

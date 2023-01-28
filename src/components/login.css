@@ -1,0 +1,42 @@
+.Login {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(122.19deg, #5bd678 1.89%, #fdc357 113.56%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.Login--register--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.signin-button, .create-account {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #b37d11;
+    color: white;
+    cursor: pointer;
+}
